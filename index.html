@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f2efe6">
+  <title>范希言｜AI 应用与 Agent 实践</title>
+  <meta name="description" content="范希言，南开大学计算机科学与技术专业本科生，关注 AI Agent、大模型应用与平台接入。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="范希言｜AI 应用与 Agent 实践">
+  <meta property="og:description" content="把复杂的技术做成能被使用的东西。">
+  <meta property="og:locale" content="zh_CN">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script>
+    (() => {
+      const saved = localStorage.getItem("theme");
+      const preferred = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.dataset.theme = saved || preferred;
+      document.documentElement.classList.add("js");
+    })();
+  </script>
+  <script type="module" src="./script.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "范希言",
+    "url": "https://github.com/lach-esism",
+    "email": "mailto:594330357@qq.com",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "南开大学"
+    },
+    "knowsAbout": ["AI Agent", "大模型应用", "平台接入", "网页开发"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span class="brand-mark" aria-hidden="true">范</span>
+        <span class="brand-name">范希言</span>
+      </a>
+
+      <nav class="site-nav" aria-label="主要导航">
+        <a href="#about">关于</a>
+        <a href="#work">项目</a>
+        <a href="#practice">实践</a>
+        <a href="#contact">联系</a>
+      </nav>
+
+      <button class="theme-toggle" type="button" aria-label="切换深浅色主题" aria-pressed="false">
+        <span class="theme-toggle-icon" aria-hidden="true">◐</span>
+        <span class="theme-toggle-text">夜间</span>
+      </button>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-meta reveal">
+          <span>Portfolio / 2026</span>
+          <span>天津 · 中国</span>
+        </div>
+
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow reveal">AI 应用 · Agent 实践 · 技术研发</p>
+            <h1 id="hero-title" class="reveal">
+              把复杂的技术<br>
+              <em>做成能被使用</em><br>
+              的东西。
+            </h1>
+            <p class="hero-lead reveal" data-pretext>
+              我是范希言，南开大学计算机科学与技术专业本科生。
+              我关注 AI Agent、大模型应用和平台接入，喜欢从环境配置、运行验证到真实交付，把想法推进成可用产品。
+            </p>
+            <div class="hero-actions reveal">
+              <a class="button button-primary" href="#work">查看项目</a>
+              <a class="text-link" href="mailto:594330357@qq.com">写信给我 <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+
+          <aside class="hero-index reveal" aria-label="当前关注">
+            <p class="index-label">Now / 当前关注</p>
+            <ol>
+              <li><span>01</span>AI Agent 部署与调试</li>
+              <li><span>02</span>复杂内容的可视化表达</li>
+              <li><span>03</span>远程 AI 编程工作流</li>
+            </ol>
+            <p class="hero-note" data-pretext>
+              持续学习，持续迭代。比起堆叠工具，我更在意一套技术最后能否稳定地被人使用。
+            </p>
+          </aside>
+        </div>
+
+        <div class="hero-rule reveal" aria-hidden="true">
+          <span>Scroll to explore</span>
+          <span class="rule-line"></span>
+          <span>01—05</span>
+        </div>
+      </section>
+
+      <section class="section about" id="about" aria-labelledby="about-title">
+        <div class="section-index reveal">
+          <span>01</span>
+          <p>Profile</p>
+        </div>
+        <div class="section-body">
+          <p class="eyebrow reveal">关于我</p>
+          <h2 id="about-title" class="reveal">在技术实现与真实需求之间，寻找清晰的连接。</h2>
+          <div class="about-grid">
+            <div class="about-copy reveal">
+              <p data-pretext>
+                本科阶段，我在专业基础学习之外持续做 AI Agent 的部署和调试。
+                做过 Hermes、OpenClaw 等工具的安装配置，也把能力接入过飞书和微信。
+              </p>
+              <p data-pretext>
+                我喜欢把模糊的问题拆成可验证的小步骤：先让环境跑起来，再检查真实调用，
+                最后整理成别人也能理解和继续使用的方案。
+              </p>
+            </div>
+            <dl class="facts reveal">
+              <div>
+                <dt>学校</dt>
+                <dd>南开大学</dd>
+              </div>
+              <div>
+                <dt>专业</dt>
+                <dd>计算机科学与技术</dd>
+              </div>
+              <div>
+                <dt>阶段</dt>
+                <dd>本科在读 · 大二</dd>
+              </div>
+              <div>
+                <dt>方向</dt>
+                <dd>AI 应用与 Agent 实践</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="section work" id="work" aria-labelledby="work-title">
+        <div class="section-index reveal">
+          <span>02</span>
+          <p>Selected work</p>
+        </div>
+        <div class="section-body">
+          <p class="eyebrow reveal">技术项目</p>
+          <h2 id="work-title" class="reveal">从工具接入，到内容呈现。</h2>
+
+          <article class="project reveal">
+            <div class="project-number">01</div>
+            <div class="project-main">
+              <p class="project-kicker">个人实践 · 持续迭代</p>
+              <h3>AI Agent 部署与多平台接入</h3>
+              <p data-pretext>
+                围绕 Hermes 与 OpenClaw 完成部署、环境配置和运行调试，
+                将工具能力接入飞书、微信等实际使用渠道。
+              </p>
+            </div>
+            <div class="project-aside">
+              <ul>
+                <li>环境配置与故障定位</li>
+                <li>平台接入与调用验证</li>
+                <li>团队技术协作</li>
+              </ul>
+              <div class="tag-row" aria-label="使用方向">
+                <span>AI Agent</span>
+                <span>飞书</span>
+                <span>微信</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-number">02</div>
+            <div class="project-main">
+              <p class="project-kicker">南开大学「新芽计划」 · 进行中</p>
+              <h3>PaperSkill 论文交互导览</h3>
+              <p data-pretext>
+                使用 Agent 辅助理解论文与 GitHub 项目，把复杂内容拆成可浏览的模块，
+                探索从论文信息结构到交互式网页导览的转化方式。
+              </p>
+            </div>
+            <div class="project-aside">
+              <ul>
+                <li>论文结构梳理</li>
+                <li>网页原型设计</li>
+                <li>交互与可视化呈现</li>
+              </ul>
+              <div class="tag-row" aria-label="使用方向">
+                <span>Agent</span>
+                <span>论文</span>
+                <span>可视化</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-number">03</div>
+            <div class="project-main">
+              <p class="project-kicker">暑期实践 · 技术组</p>
+              <h3>「师生四通」导览项目</h3>
+              <p data-pretext>
+                在团队中承担技术侧工作，与成员协作完成导览成果。
+                项目获得历史学院院系第一和校级十佳团队。
+              </p>
+            </div>
+            <div class="project-aside">
+              <ul>
+                <li>团队技术协作</li>
+                <li>任务推进与交付</li>
+                <li>成果整合</li>
+              </ul>
+              <div class="tag-row" aria-label="成果">
+                <span>院系第一</span>
+                <span>校级十佳</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section practice" id="practice" aria-labelledby="practice-title">
+        <div class="section-index reveal">
+          <span>03</span>
+          <p>Practice</p>
+        </div>
+        <div class="section-body">
+          <p class="eyebrow reveal">实践与能力</p>
+          <h2 id="practice-title" class="reveal">边做边学，把每一步留下证据。</h2>
+
+          <div class="practice-grid">
+            <div class="practice-column reveal">
+              <h3>工作方式</h3>
+              <ol class="process-list">
+                <li><span>01</span><p><strong>拆解</strong>把模糊需求变成可以检查的小目标。</p></li>
+                <li><span>02</span><p><strong>验证</strong>用真实运行结果确认环境、接口和页面。</p></li>
+                <li><span>03</span><p><strong>沉淀</strong>把过程整理成文档，让方案可以继续迭代。</p></li>
+              </ol>
+            </div>
+
+            <div class="practice-column reveal">
+              <h3>实践记录</h3>
+              <ul class="record-list">
+                <li><span>竞赛</span><p>参与「华为杯」竞赛与 AIGC 相关比赛。</p></li>
+                <li><span>平台</span><p>有飞书、微信等平台的接入配置与调用验证经验。</p></li>
+                <li><span>协作</span><p>在学校实践中承担技术组工作，按分工推进并交付。</p></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="skill-band reveal" aria-label="技术与关注方向">
+            <span>AI Agent</span>
+            <span>大模型应用</span>
+            <span>平台接入</span>
+            <span>网页开发</span>
+            <span>可视化</span>
+            <span>Git</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <p class="eyebrow reveal">Contact / 联系</p>
+        <h2 id="contact-title" class="reveal">一起做点<br><em>有用的东西。</em></h2>
+        <div class="contact-links reveal">
+          <a href="mailto:594330357@qq.com">
+            <span>邮箱</span>
+            <strong>594330357@qq.com</strong>
+            <i aria-hidden="true">↗</i>
+          </a>
+          <a href="https://github.com/lach-esism" target="_blank" rel="noreferrer">
+            <span>GitHub</span>
+            <strong>@lach-esism</strong>
+            <i aria-hidden="true">↗</i>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year">2026</span> 范希言</p>
+      <p>用好奇心和技术，把想法推进一点。</p>
+      <a href="#top">回到顶部 ↑</a>
+    </footer>
+  </div>
+</body>
+</html>
