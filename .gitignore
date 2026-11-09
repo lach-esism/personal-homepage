@@ -2,4 +2,5 @@
 Thumbs.db
 .preview-*.png
 .gstack/
+.tmp-homepage.bundle
 node_modules/
